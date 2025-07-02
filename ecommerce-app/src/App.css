@@ -1,0 +1,41 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 12px;
+  max-width: 300px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Unique styles for each product */
+.product-1 {
+  background-color: #f0f8ff; /* light blue */
+  color: #003366;
+}
+
+.product-2 {
+  background-color: #fffaf0; /* ivory */
+  color: #8b0000;
+  font-style: italic;
+}
+
+.product-3 {
+  background-color: #f5fffa; /* mint cream */
+  color: #006400;
+  font-weight: bold;
+}
+
+.product-4 {
+  background-color: #fff0f5; /* lavender blush */
+  color: #4b0082;
+  text-transform: uppercase;
+}
+

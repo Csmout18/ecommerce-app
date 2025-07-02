@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const ProductItem = ({ product }) => (
-  <div className="product-item">
+  <div className={`product-item product-${product.id}`}>
     <h2>{product.name}</h2>
     <p>{product.description}</p>
     <p>Price: ${product.price}</p>
